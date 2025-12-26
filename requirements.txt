@@ -1,0 +1,51 @@
+# Análisis de Migración en España - Proyecto de Machine Learning
+# Requisitos para Proyecto Final de Maestría - Ciencias de la Computación RTU
+# Curso: Data Analytics with Machine Learning
+
+# Ciencia de Datos Core
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Internacionalización y Manejo de Países
+pycountry>=24.6.0
+babel>=2.17.0
+
+# Machine Learning - scikit-learn
+scikit-learn>=1.3.0
+
+# Deep Learning - TensorFlow/Keras
+tensorflow>=2.13.0
+
+# Gradient Boosting
+xgboost>=2.0.0
+
+# Análisis Estadístico
+statsmodels>=0.14.0
+
+# Visualización de Datos
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Soporte para Jupyter
+jupyter>=1.0.0
+ipython>=8.0.0
+notebook>=7.0.0
+
+# Utilidades Adicionales
+scipy>=1.11.0
+tqdm>=4.65.0
+
+# Validación de Datos
+openpyxl>=3.1.0  # Soporte para archivos Excel
+
+# NOTAS:
+# - TensorFlow requiere configuraciones específicas del sistema
+# - Para soporte GPU, instalar tensorflow-gpu en lugar de tensorflow
+# - Google Colab proporciona la mayoría de dependencias pre-instaladas
+# - Python 3.8+ requerido para compatibilidad
+
+# Instalación:
+# pip install -r requirements.txt
+
+# Para Google Colab (instalaciones adicionales mínimas):
+# !pip install pycountry babel
